@@ -1,0 +1,198 @@
+/*Сброс стилей и подключение шрифта*/
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url("../Font/TTLakes/TTLakes-Regular.woff") format('woff'),
+         url("../Font/TTLakes/TTLakes-Regular.woff") format('woff'),
+         url("../Font/TTLakes/TTLakes-Regular.ttf") format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url("../Font/TTLakes/TTLakes-Bold.woff") format('woff'),
+         url("../Font/TTLakes/TTLakes-Bold.woff") format('woff'),
+         url("../Font/TTLakes/TTLakes-Bold.ttf") format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'TT Lakes';
+    list-style-type: none;
+    text-decoration: none;
+    color:#1B1C21;
+}
+
+/* ТЕЛО СТИЛИЗАЦИИ */
+
+.wrapper{
+    width: 320px;
+    box-shadow: -20px 0 50px 0;
+    position: fixed;
+    height: 100%;
+}
+
+button{
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.highlight:focus::before {
+    left: 0;
+    transform: translate(0px, -10px);
+    position: absolute;
+    content: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNCIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDQgMzIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNCA0QzQgMS43OTA4NiAyLjIwOTE0IDAgMCAwVjMyQzIuMjA5MTQgMzIgNCAzMC4yMDkxIDQgMjhWNFoiIGZpbGw9IiM0MUY2RDciLz4KPC9zdmc+Cg==");
+    transition: transform 0.3s ease;
+    color: #7E7E82;
+}
+
+.menu__list_style {
+    transition: font-size 0.3s ease-out;
+}
+.menu__list_style:focus{
+    font-size: 17px;
+    color: #7E7E82;
+}
+.main{
+    flex: 1 1 auto;
+}
+
+.header-aside__menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header-logo {
+    margin-left: -60px;
+}
+
+.round-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+.round-button-bottom{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.round-button {
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+.round__button_burger {
+    background-image: url(/img/burger_exit.svg);
+    width: 40px;
+    height: 40px;
+    content: "";
+    background-repeat: no-repeat;
+}
+
+.round__button_search {
+    background-image: url(/img/search.svg);
+    width: 40px;
+    height: 40px;
+    content: "";
+    background-repeat: no-repeat;
+}
+
+.round__button_call {
+    background-image: url(/img/call.svg);
+    width: 40px;
+    height: 40px;
+    content: "";
+    background-repeat: no-repeat;
+}
+
+.round__button_chat {
+    background-image: url(/img/chat.svg);
+    width: 40px;
+    height: 40px;
+    content: "";
+    background-repeat: no-repeat;
+}
+
+.round__button_profile {
+    background-image: url(/img/profile.svg);
+    width: 40px;
+    height: 40px;
+    content: "";
+    background-repeat: no-repeat;
+}
+
+.main__menu-list{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+}
+
+.menu__list-text{
+    margin: 20px 24px;
+}
+
+.aside__menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-aside__round-button {
+    display: flex;
+    gap: 20px;
+    padding: 10px 0 20px 0;
+}
+
+.phone{
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    font-weight: 800;
+}
+
+.email {
+    font-weight: 500;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.footer-info_email-phone {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+input[type=radio]{
+    display: none;
+}
+.radio_input{
+    color: #1B1C21;
+}
+.radio_input:checked + label{
+    color: #7E7E82;
+}
+.radio__lang-list{
+    padding-top: 15px;
+}
+.phone{
+    padding-top: 15px;
+}
