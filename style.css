@@ -96,7 +96,7 @@ button{
 }
 
 .round__button_burger {
-    background-image: url(/img/burger_exit.svg);
+    background-image: url(img/burger_exit.svg);
     width: 40px;
     height: 40px;
     content: "";
@@ -104,7 +104,7 @@ button{
 }
 
 .round__button_search {
-    background-image: url(/img/search.svg);
+    background-image: url(img/search.svg);
     width: 40px;
     height: 40px;
     content: "";
@@ -112,7 +112,7 @@ button{
 }
 
 .round__button_call {
-    background-image: url(/img/call.svg);
+    background-image: url(img/call.svg);
     width: 40px;
     height: 40px;
     content: "";
@@ -120,7 +120,7 @@ button{
 }
 
 .round__button_chat {
-    background-image: url(/img/chat.svg);
+    background-image: url(img/chat.svg);
     width: 40px;
     height: 40px;
     content: "";
@@ -128,7 +128,7 @@ button{
 }
 
 .round__button_profile {
-    background-image: url(/img/profile.svg);
+    background-image: url(img/profile.svg);
     width: 40px;
     height: 40px;
     content: "";
