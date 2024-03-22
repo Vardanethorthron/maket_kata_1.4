@@ -51,6 +51,7 @@
     height: 40px;
     width: 40px;
     border-radius: 20px;
+    pointer-events: none;
 }
 
 .round__button_burger {
