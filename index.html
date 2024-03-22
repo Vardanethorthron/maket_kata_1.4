@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>maket 1.4</title>
+    <link rel="stylesheet" href="fonts/TTLakes/stylesheet.css">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <aside class="wrapper">
+    <main class="wrapper">
         <header class="header">
             <div class="header-aside__menu">
                 <button class="round-button round__button_burger"></button>
-                <a class="header-logo" href="#"><img src="img/Group.svg" alt="Логотип компании CPS"></a>
+                <a class="header-logo" href="#"><img src="/img/Group.svg" alt="Логотип компании CPS"></a>
                 <button class="round-button round__button_search"></button>
             </div>
         </header>
 
-        <main class="main">
+        <aside class="main">
             <nav class="main-aside__menu">
                 <ul class="main__menu-list">
                     <li class="menu__list-text list-text_repair"><a class="highlight menu__list_style" href="#">Ремонт техники</a></li>
@@ -29,30 +31,26 @@
                     <li class="menu__list-text list-text_repair"><a class="highlight menu__list_style" href="#">Контакты</a></li>
                 </ul>
             </nav>
-        </main>
+        </aside>
         <footer class="footer-info">
             <div class="footer-aside__round-button">
-            <button class="round-button round__button_call"></button>
-            <button class="round-button round__button_chat"></button>
-            <button class="round-button round__button_profile"></button>
-            </div>
-            
+                <button class="round-button round__button_call"></button>
+                <button class="round-button round__button_chat"></button>
+                <button class="round-button round__button_profile"></button>
+            </div>   
             <div class="footer-info_email-phone">
                 <a class="email" href="mailto:mail@cps.com">mail@cps.com</a>
                 <a class="phone" href="tel:+78008908900">8 800 890 8900</a>
             </div>
-
             <form class="radio__lang-list" action="">
                 <input type="radio" id="ru" name="lang" class="radio_input" checked>
                 <label for="ru" class="label_input">RU</label>
-    
-                <input type="radio" id="en" name="lang" class="radio_input" >
+                <input type="radio" id="en" name="lang" class="radio_input">
                 <label for="en" class="label_input">EN</label>
-    
                 <input type="radio" id="ch" name="lang" class="radio_input">
                 <label for="ch" class="label_input">CH</label>
             </form>
         </footer>
-    </aside>
+    </main>
 </body>
 </html>
