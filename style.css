@@ -1,31 +1,9 @@
 /*Сброс стилей и подключение шрифта*/
-
-@font-face {
-    font-family: 'TT Lakes';
-    src: url("../Font/TTLakes/TTLakes-Regular.woff") format('woff'),
-         url("../Font/TTLakes/TTLakes-Regular.woff") format('woff'),
-         url("../Font/TTLakes/TTLakes-Regular.ttf") format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'TT Lakes';
-    src: url("../Font/TTLakes/TTLakes-Bold.woff") format('woff'),
-         url("../Font/TTLakes/TTLakes-Bold.woff") format('woff'),
-         url("../Font/TTLakes/TTLakes-Bold.ttf") format('truetype');
-    font-weight: 900;
-    font-style: normal;
-}
-
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'TT Lakes';
-    list-style-type: none;
-    text-decoration: none;
+    font-family: "TT Lakes";
     color:#1B1C21;
-}
+    transition: all 0.3s ease;
+  }
 
 /* ТЕЛО СТИЛИЗАЦИИ */
 
@@ -34,15 +12,6 @@
     box-shadow: -20px 0 50px 0;
     position: fixed;
     height: 100%;
-}
-
-button{
-    outline: none;
-    border: 0;
-    background: transparent;
-}
-
-.wrapper{
     min-height: 100%;
     display: flex;
     flex-direction: column;
@@ -58,7 +27,7 @@ button{
 }
 
 .menu__list_style {
-    transition: font-size 0.3s ease-out;
+    transition: font-size 0.3s ease;
 }
 .menu__list_style:focus{
     font-size: 17px;
@@ -71,66 +40,47 @@ button{
 .header-aside__menu {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
 }
 
 .header-logo {
     margin-left: -60px;
-}
-
-.round-button{
-    height: 40px;
-    width: 40px;
-    border-radius: 20px;
-}
-.round-button-bottom{
-    height: 40px;
-    width: 40px;
-    border-radius: 20px;
+    margin: 20px 20px 20px 0;
 }
 
 .round-button {
-    outline: none;
-    border: 0;
-    background: transparent;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
 }
 
 .round__button_burger {
-    background-image: url(img/burger_exit.svg);
-    width: 40px;
-    height: 40px;
+    background-image: url(/img/burger_exit.svg);
     content: "";
     background-repeat: no-repeat;
+    margin: 20px 0 20px 20px;
 }
 
 .round__button_search {
-    background-image: url(img/search.svg);
-    width: 40px;
-    height: 40px;
+    background-image: url(/img/search.svg);
     content: "";
     background-repeat: no-repeat;
+    margin: 20px;
 }
 
 .round__button_call {
-    background-image: url(img/call.svg);
-    width: 40px;
-    height: 40px;
+    background-image: url(/img/call.svg);
     content: "";
     background-repeat: no-repeat;
 }
 
 .round__button_chat {
-    background-image: url(img/chat.svg);
-    width: 40px;
-    height: 40px;
+    background-image: url(/img/chat.svg);
     content: "";
     background-repeat: no-repeat;
 }
 
 .round__button_profile {
-    background-image: url(img/profile.svg);
-    width: 40px;
-    height: 40px;
+    background-image: url(/img/profile.svg);
     content: "";
     background-repeat: no-repeat;
 }
@@ -163,10 +113,12 @@ button{
     line-height: 24px;
     letter-spacing: -0.6px;
     font-weight: 800;
+    font-family: 'TT Lakes';
 }
 
 .email {
     font-weight: 500;
+    font-family: 'TT Lakes';
 }
 
 .footer-info {
