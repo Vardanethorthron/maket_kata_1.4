@@ -54,33 +54,33 @@
 }
 
 .round__button_burger {
-    background-image: url(/img/burger_exit.svg);
+    background-image: url(img/burger_exit.svg);
     content: "";
     background-repeat: no-repeat;
     margin: 20px 0 20px 20px;
 }
 
 .round__button_search {
-    background-image: url(/img/search.svg);
+    background-image: url(img/search.svg);
     content: "";
     background-repeat: no-repeat;
     margin: 20px;
 }
 
 .round__button_call {
-    background-image: url(/img/call.svg);
+    background-image: url(img/call.svg);
     content: "";
     background-repeat: no-repeat;
 }
 
 .round__button_chat {
-    background-image: url(/img/chat.svg);
+    background-image: url(img/chat.svg);
     content: "";
     background-repeat: no-repeat;
 }
 
 .round__button_profile {
-    background-image: url(/img/profile.svg);
+    background-image: url(img/profile.svg);
     content: "";
     background-repeat: no-repeat;
 }
